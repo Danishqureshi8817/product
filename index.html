@@ -1,0 +1,43 @@
+<script src="prod.js"></script>
+<html>
+
+<head>
+        <title> Sony Product </title>
+    </head>
+    <body>
+    <center>
+    <select id="prod" onchange="product()" >
+        <option>-Select Sony Product-</option>  
+        <option value="5000">Hi-Fi</option>  
+        <option value="45000">LED</option>  
+        <option value="5500">DSLR</option>  
+    </select><br><br>
+
+
+    <img id="img" src=" " width="200"><br><br>
+    <div id="pname"> </div>&nbsp;&nbsp;
+    <div id="pprice"> </div><br><br>
+
+    <input type="text" id="qtny" placeholder="Enter Value">
+    <input style="transition-duration: 0s;" type="button" id="btn" value="Submit" ondblclick="amount()"><br><br>
+    
+    <din id="demand" > </din>
+    <div id="amt" > </div><br>
+
+    <select id="ofr" onchange="offer()" >
+        <option>-Select Offer-</option>  
+        <option value="50">Ex-change</option>  
+        <option value="10">Shop Offer</option>  
+        <option value="30">Card purchase</option>  
+    </select><br><br>
+
+   
+    <div id="ofer" > </div><br>
+    <div id="tage" > </div><br>
+  
+    <input type="button" id="calt" value="CALCULATE NET-AMOUNT" onclick="namt()"><br><br>
+    <div id="netamt" > </div><br>
+</center>
+</body>
+    
+</html>
